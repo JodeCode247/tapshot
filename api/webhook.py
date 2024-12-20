@@ -26,7 +26,7 @@ bucket = storage.bucket()
 
 def generate_start_keyboard():
     keyboard = InlineKeyboardMarkup()
-    keyboard.add(InlineKeyboardButton('Start Tapshot', web_app=WebAppInfo(url="https://tapshot-front.vercel.app/")))
+    keyboard.add(InlineKeyboardButton('Start Tapshot', web_app=WebAppInfo(url="https://portforlio-smoky.vercel.app/")))
     return keyboard
 
 @bot.message_handler(commands=['start'])
